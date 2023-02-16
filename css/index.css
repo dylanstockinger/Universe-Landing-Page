@@ -1,0 +1,5 @@
+/* Ici les composants qu'on importe sur l'api  */
+/* Dossier parent du CSS  */
+@import "./reset.css";
+@import "./components/Card.css";
+@import "./components/Navbar.css";
