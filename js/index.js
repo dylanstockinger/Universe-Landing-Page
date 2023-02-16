@@ -8,7 +8,7 @@ slideFeatureContainer.forEach(function (slideFeatureContainer) {
 
     if (
       scrollTop >
-      (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.5
+      (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.7
     ) {
       slideFeatureContainer.classList.add("active");
     }
@@ -28,7 +28,7 @@ slideResultsContainer.forEach(function (slideResultsContainer) {
 
     if (
       scrollTop >
-      (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.5
+      (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.7
     ) {
       slideResultsContainer.classList.add("active");
     }
