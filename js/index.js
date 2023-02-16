@@ -8,7 +8,7 @@ slideFeatureContainer.forEach(function (slideFeatureContainer) {
 
     if (
       scrollTop >
-      (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.7
+      (scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.8
     ) {
       slideFeatureContainer.classList.add("active");
     }
