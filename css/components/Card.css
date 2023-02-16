@@ -177,9 +177,7 @@
         margin: auto;
         align-items: center;
         justify-content: center;
-        transform: translateX(-100%);
-        opacity: 0;
-        transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+
     }
 
     .content {
@@ -199,12 +197,6 @@
 
 
 
-
-    .container-call-to-action.active {
-        transform: translateX(0%);
-        opacity: 1;
-
-    }
 
     .container-call-to-action .content {
 
