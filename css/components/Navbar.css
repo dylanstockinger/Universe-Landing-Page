@@ -116,12 +116,13 @@
     }
 
     .nav-links {
-        font-size: 2em;
+        font-size: 1.5rem;
     }
 
     .nav-links button {
         color: #ffffff;
-        font-size: 1.4rem;
+        font-size: 0.8rem;
+        font-weight: bold;
         padding: 9px;
         border: none;
         position: relative;
